@@ -12,11 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    /* background: #5f1ebe; */
-    background-color: rgb(94, 31, 189);
-    background-image: radial-gradient(at 4% 8%, rgb(137, 104, 238) 0px, transparent 50%), radial-gradient(at 39% 92%, rgb(94, 31, 189) 0px, transparent 50%), radial-gradient(at 12% 74%, rgb(94, 31, 189) 0px, transparent 50%), radial-gradient(at 4% 93%, rgb(94, 31, 189) 0px, transparent 50%), radial-gradient(at 92% 33%, rgb(56, 146, 255) 0px, transparent 50%), radial-gradient(at 72% 9%, rgb(56, 146, 255) 0px, transparent 50%), radial-gradient(at 96% 8%, rgb(139, 201, 249) 0px, transparent 50%), radial-gradient(at 94% 92%, rgb(15, 97, 219) 0px, transparent 50%);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #000000;
 }
 
 ::selection {
@@ -26,31 +22,19 @@ body {
 
 .wrapper {
     width: 430px;
-    background: #fff;
+    background: #161616;
     border-radius: 5px;
     padding: 30px;
     box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.05);
 }
 
 .wrapper header {
-    color: #5f1ebe;
+    color: #9c9c9c;
     font-size: 27px;
     font-weight: 600;
     text-align: center;
 }
 
-/* .wrapper form {
-    height: 180px;
-    display: flex;
-    cursor: pointer;
-    z-index: 1;
-    margin: 30px 0;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 5px;
-    border: 2px dashed #5f1ebe;
-} */
 .wrapper form {
     display: flex;
     flex-direction: column;
@@ -67,11 +51,11 @@ body {
     justify-content: center;
     flex-direction: column;
     border-radius: 5px;
-    border: 2px dashed #5f1ebe;
+    border: 2px dashed #9c9c9c;
 }
 
 form :where(i, p) {
-    color: #5f1ebe;
+    color: #9c9c9c;
 }
 
 form i {
@@ -99,17 +83,17 @@ form p {
     padding: 8px;
     font-weight: 800;
     font-size: 1rem;
-    border: 2px solid #5f1ebe;
-    color: #5f1ebe;
-    background-color: #fff;
+    border: 2px solid #9c9c9c;
+    color: #9c9c9c;
+    background-color: transparent;
     border-radius: 8px;
     transition: all .3s ease-in-out;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #5f1ebe;
-    color: #fff;
+    background-color: #9c9c9c;
+    color: #161616;
 }
 .uploaded{
     margin: 10px 0;
@@ -120,7 +104,7 @@ form p {
     display: flex;
     align-items: center;
     border-radius: 8px;
-    border: 2px solid #5f1ebe;
+    border: 2px solid #9c9c9c;
 }
 .uploaded_files img{
     height: 30px;
@@ -128,4 +112,5 @@ form p {
 }
 .uploaded_files span{
     margin-left: 5px;
+    color: #9c9c9c;
 }
