@@ -1,7 +1,7 @@
 # PDF-Merger
 
 ## Quickstart
-Running project localy
+#### Running project localy
 ```git
 git clone https://github.com/harsh1x4/PDF-Merger.git
 ```
