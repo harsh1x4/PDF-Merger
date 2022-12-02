@@ -62,7 +62,7 @@ body {
     display: flex;
     cursor: pointer;
     z-index: 1;
-    margin: 25px 0;
+    margin: 10px 0;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -110,4 +110,22 @@ form p {
 .btn:hover {
     background-color: #5f1ebe;
     color: #fff;
+}
+.uploaded{
+    margin: 10px 0;
+}
+.uploaded_files{
+    margin: 5px 0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #5f1ebe;
+}
+.uploaded_files img{
+    height: 30px;
+    width: 30px;
+}
+.uploaded_files span{
+    margin-left: 5px;
 }
